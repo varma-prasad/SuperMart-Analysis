@@ -3,7 +3,9 @@
 ## Table of Contents
 
   * [Overview](#overview)
-  * [Problem Statement by Marketing Manageer](#marketing-manager)[SQL](#sql-output)|[Power BI](#power-bi-report)
+  * [Problem Statement by Marketing Manageer](#marketing-manager)
+    	* [SQL](#sql-output)
+    	* [Power BI](#power-bi-report)
 
 
 ### Overview
