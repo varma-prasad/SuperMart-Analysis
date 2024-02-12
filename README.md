@@ -23,14 +23,15 @@
 
 ### Marketing Manager
 
-Problem Statement:\
-	Lisa Wants to plan new marketing campaign. She has two modes of Campaign:\
-        1. Social Media for Younger people\
-        2. Print advertisemetns in News paper for Older people.\
-     	She needs data about the customers who belong to three age categories in all four regions:\
-        1. Less than 36 years\
-        2. Between 36 to 54 years\
-        3. Above 54 years.
+Problem Statement:
+Lisa Wants to plan new marketing campaign. She has two modes of Campaign:
+1. Social Media for Younger people
+2. Print advertisemetns in News paper for Older people.
+
+She needs data about the customers who belong to three age categories in all four regions:
+1. Less than 36 years.
+2. Between 36 to 54 years.
+3. Above 54 years.
 
 SQL Qury to fetch the required Data
 
