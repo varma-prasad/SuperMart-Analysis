@@ -57,7 +57,7 @@ order by
 
 #### Power BI Report
 
-![image](https://github.com/varma-prasad/SuperMart-Analysis/assets/108605375/5fa5484b-bc28-4ee7-804d-37996748de32)
+![image](https://github.com/varma-prasad/SuperMart-Analysis/assets/108605375/c754d20b-9a76-4869-8cbf-a0d9edfe3ecc)
 
 ### SupplyChain Manager
 
