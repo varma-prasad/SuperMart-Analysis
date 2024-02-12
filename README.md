@@ -72,7 +72,6 @@ To Manage the revenues, he needs more detail about the Discounts given for the p
 1. Total Revenue loss due to Discounts.
 2. Total Revenue and Discount for Each product.
 
-
       
 
    
