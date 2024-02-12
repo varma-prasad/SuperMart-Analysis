@@ -3,9 +3,10 @@
 ## Table of Contents
 
   * [Overview](#overview)
-  * [Problem Statement by Marketing Manageer](#marketing-manager)
-    	* [SQL](#sql-output)
+  * [Problem Statement by Marketing Manageer](#marketing-manager)\
+    	* [SQL](#sql-output)\
     	* [Power BI](#power-bi-report)
+  * [Problem Statement by SupplyChain Manageer](#supplychain-manager)
 
 
 ### Overview
@@ -22,13 +23,13 @@
 
 ### Marketing Manager
 
-Problem Statement:
-        Lisa Wants to plan new marketing campaign. She has two modes of Campaign: 
-        1. Social Media for Younger people
-        2. Print advertisemetns in News paper for Older people.
-     She needs data about the customers who belong to three age categories in all four regions:
-        1. Less than 36 years
-        2. Between 36 to 54 years
+Problem Statement:\
+	Lisa Wants to plan new marketing campaign. She has two modes of Campaign:\
+        1. Social Media for Younger people\
+        2. Print advertisemetns in News paper for Older people.\
+     	She needs data about the customers who belong to three age categories in all four regions:\
+        1. Less than 36 years\
+        2. Between 36 to 54 years\
         3. Above 54 years.
 
 SQL Qury to fetch the required Data
@@ -56,5 +57,23 @@ order by
 #### Power BI Report
 
 ![image](https://github.com/varma-prasad/SuperMart-Analysis/assets/108605375/c4d7636d-7df2-4e8f-b875-9f4710ed0ffb) 
+
+### SupplyChain Manager
+
+Problem Statement:
+Sam facing Issues in Managing inventory in South(Over utilised) and East regions(Under Utilised). He needsd information about these products:
+1. Top 5 selling Products in the East Region.
+2. Least 5 selling Products in the South Region.
+
+### Finance Manager
+
+Problem Statement:
+To Manage the revenues, he needs more detail about the Discounts given for the products.
+1. Total Revenue loss due to Discounts.
+2. Total Revenue and Discount for Each product.
+
+
+      
+
    
  
