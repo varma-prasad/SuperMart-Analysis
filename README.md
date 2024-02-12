@@ -3,7 +3,7 @@
 ## Table of Contents
 
   * [Overview](#overview)
-  * [Problem Statement by Marketing Manageer](#marketing-manager)
+  * [Problem Statement by Marketing Manageer](#marketing-manager)[SQL](#sql-output)|[Power BI](#power-bi-report)
 
 
 ### Overview
@@ -32,16 +32,20 @@ Problem Statement:
 SQL Qury to fetch the required Data
 
 ```
-Select Region, 
-		     case 
-		          when age < 36 then 'Young'
-		          when age between 36 and 54 then 'Middle'
-		          else 'old' 
-       end as age_category, 
-		    count(customer_id)
-from customer
-group by Region, age_category
-order by region asc, age_category desc
+Select
+	Region, 
+	case 
+	when age < 36 then 'Young'
+	when age between 36 and 54 then 'Middle'
+	else 'old' 
+       	end as age_category, 
+	count(customer_id)
+from
+	customer
+group by
+	Region, age_category
+order by
+	 region asc, age_category desc
 ```
 #### SQL Output
 
