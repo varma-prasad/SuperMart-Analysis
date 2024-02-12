@@ -49,6 +49,6 @@ order by region asc, age_category desc
 
 #### Power BI Report
 
-![image](https://github.com/varma-prasad/SuperMart-Analysis/assets/108605375/c4d7636d-7df2-4e8f-b875-9f4710ed0ffb)
+![image](https://github.com/varma-prasad/SuperMart-Analysis/assets/108605375/c4d7636d-7df2-4e8f-b875-9f4710ed0ffb) 
    
  
