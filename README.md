@@ -103,11 +103,11 @@ order by
 	quantity desc, p.product_name asc
 limit 5
 ```
-#### SQL Output1
+#### SQL Output2
 
 ![MixCollage-13-Feb-2024-06-24-PM-3566](https://github.com/varma-prasad/SuperMart-Analysis/assets/108605375/3fcc84e7-52ee-4e53-9427-96fefb857c81)
 
-#### Power BI Report1
+#### Power BI Report2
 
 ![image](https://github.com/varma-prasad/SuperMart-Analysis/assets/108605375/277121f9-cc04-4594-9c2f-f12171ef755d)
 
