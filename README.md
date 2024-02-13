@@ -4,9 +4,11 @@
 
   * [Overview](#overview)
   * [Problem Statement by Marketing Manageer](#marketing-manager)\
-    	* [SQL](#sql-output)\
-    	* [Power BI](#power-bi-report)
-  * [Problem Statement by SupplyChain Manageer](#supplychain-manager)
+    	* [SQL](#sql-output1)\
+    	* [Power BI](#power-bi-report1)
+  * [Problem Statement by SupplyChain Manageer](#supplychain-manager)\
+    	* [SQL](#sql-output2)\
+    	* [Power BI](#power-bi-report2)
 
 
 ### Overview
@@ -51,11 +53,11 @@ group by
 order by
 	 region asc, age_category desc
 ```
-#### SQL Output
+#### SQL Output1
 
 ![image](https://github.com/varma-prasad/SuperMart-Analysis/assets/108605375/8bf4ce68-5d5f-4ba4-a28d-047d429f4228)
 
-#### Power BI Report
+#### Power BI Report1
 
 ![image](https://github.com/varma-prasad/SuperMart-Analysis/assets/108605375/c754d20b-9a76-4869-8cbf-a0d9edfe3ecc)
 
@@ -65,6 +67,50 @@ Problem Statement:
 Sam facing Issues in Managing inventory in South(Over utilised) and East regions(Under Utilised). He needsd information about these products:
 1. Top 5 selling Products in the East Region.
 2. Least 5 selling Products in the South Region.
+
+SQL Qury to fetch the required Data
+
+```
+-- Least 5 Selling products from south Region
+select 
+	p.product_name, sum(s.quantity) quantity
+from 
+	sales s inner join product p
+	on p.product_id = s.product_id
+	inner join customer c
+	on c.customer_id = s.customer_id
+where 
+	c.region = 'South'
+group by 
+	p.product_name
+order by 
+	quantity asc, p.product_name asc
+limit 5
+
+-- Top 5 Selling products from East Region
+select 
+	p.product_name, sum(s.quantity) quantity
+from 
+	sales s inner join product p
+	on p.product_id = s.product_id
+	inner join customer c
+	on c.customer_id = s.customer_id
+where 
+	c.region = 'East'
+group by 
+	p.product_name
+order by 
+	quantity desc, p.product_name asc
+limit 5
+```
+#### SQL Output1
+
+![MixCollage-13-Feb-2024-06-24-PM-3566](https://github.com/varma-prasad/SuperMart-Analysis/assets/108605375/3fcc84e7-52ee-4e53-9427-96fefb857c81)
+
+#### Power BI Report1
+
+![image](https://github.com/varma-prasad/SuperMart-Analysis/assets/108605375/277121f9-cc04-4594-9c2f-f12171ef755d)
+
 
 ### Finance Manager
 
