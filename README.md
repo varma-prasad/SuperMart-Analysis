@@ -12,7 +12,6 @@
   * [Problem Statement by Finanace Manageer](#finance-manager)\
     	* [SQL](#sql-output3)\
     	* [Power BI](#power-bi-report3)
-  * [power BI Dashboard Link](#https://app.powerbi.com/view?r=eyJrIjoiZjVkYjg2YTgtOTA4NS00MDBkLTk4M2ItNmY5YzliMmUyMDYyIiwidCI6IjZhYjJkZTAwLTYxZjYtNDVmYS1iZmM4LTcxYTY4MDUwYjg0NyJ9&pageName=ReportSection)
 
 
 ### Overview
