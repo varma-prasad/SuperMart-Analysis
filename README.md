@@ -150,8 +150,20 @@ order by
 #### Power BI Report3
 
 ![Screenshot 2024-02-14 121907](https://github.com/varma-prasad/SuperMart-Analysis/assets/108605375/81197ba9-159a-4bba-bb2b-6e9198c09238)
+---
 
-      
+## 🛠 Tools used
+![](https://img.shields.io/badge/postgresql-v16.2-blue)
+![](https://img.shields.io/badge/Power_BI-v2.124.2028.0-green)
+![](https://img.shields.io/badge/Excel-v2023-orange)
+
+## Authors
+
+- [Varma Prasad S](https://github.com/varma-prasad)
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/varma-prasad-s/)
 
    
  
