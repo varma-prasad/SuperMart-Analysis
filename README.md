@@ -9,6 +9,10 @@
   * [Problem Statement by SupplyChain Manageer](#supplychain-manager)\
     	* [SQL](#sql-output2)\
     	* [Power BI](#power-bi-report2)
+  * [Problem Statement by Finanace Manageer](#finance-manager)\
+    	* [SQL](#sql-output3)\
+    	* [Power BI](#power-bi-report3)
+  * [power BI Dashboard Link](#https://app.powerbi.com/view?r=eyJrIjoiZjVkYjg2YTgtOTA4NS00MDBkLTk4M2ItNmY5YzliMmUyMDYyIiwidCI6IjZhYjJkZTAwLTYxZjYtNDVmYS1iZmM4LTcxYTY4MDUwYjg0NyJ9&pageName=ReportSection)
 
 
 ### Overview
@@ -35,7 +39,7 @@ She needs data about the customers who belong to three age categories in all fou
 2. Between 36 to 54 years.
 3. Above 54 years.
 
-SQL Qury to fetch the required Data
+SQL Query to fetch the required Data
 
 ```
 Select
@@ -68,7 +72,7 @@ Sam facing Issues in Managing inventory in South(Over utilised) and East regions
 1. Top 5 selling Products in the East Region.
 2. Least 5 selling Products in the South Region.
 
-SQL Qury to fetch the required Data
+SQL Query to fetch the required Data
 
 ```
 -- Least 5 Selling products from south Region
@@ -118,6 +122,34 @@ Problem Statement:
 To Manage the revenues, he needs more detail about the Discounts given for the products.
 1. Total Revenue loss due to Discounts.
 2. Total Revenue and Discount for Each product.
+
+SQL Query to fetch the required data
+```
+
+select 
+	sum(discount*sales) as total_discount 
+from 
+	sales;
+
+select 
+	product_id, sum(discount*sales) as Discount,
+	(sum(sales)- sum(discount*sales)) as Revenue,
+	sum(discount*sales)/(sum(sales)- sum(discount*sales))  as ratio
+from
+	sales
+group by 
+	product_id
+order by 
+	ratio desc
+```
+
+#### SQL Output3
+
+![Screenshot 2024-02-14 121839](https://github.com/varma-prasad/SuperMart-Analysis/assets/108605375/d7449b34-1626-4f19-81d4-3751a3256701)
+
+#### Power BI Report3
+
+![Screenshot 2024-02-14 121907](https://github.com/varma-prasad/SuperMart-Analysis/assets/108605375/81197ba9-159a-4bba-bb2b-6e9198c09238)
 
       
 
